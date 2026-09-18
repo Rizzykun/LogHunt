@@ -341,8 +341,8 @@ More in [`screenshots/`](screenshots/). Regenerate with
 Python 3.11 or newer.
 
 ```bash
-git clone <your-repo-url> loghunt
-cd loghunt
+git clone https://github.com/Rizzykun/LogHunt.git
+cd LogHunt
 python -m pip install -r requirements.txt
 python tools/generate_scenario.py     # writes data/normal and data/attacks
 ```
