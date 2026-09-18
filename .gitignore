@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+.streamlit/secrets.toml
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Generated reports and exports. The sample datasets in data/ ARE committed
+# on purpose: they are the reproducible evidence behind the README's numbers.
+/investigation.md
+/*.md.bak
+loghunt_case_file.zip
+loghunt_timeline.csv

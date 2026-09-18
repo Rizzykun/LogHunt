@@ -1,0 +1,4088 @@
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:14:45 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	Logon ID:	0x748709
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	59451
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:26:04 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0xA9EB72
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.31
+	Source Port:	30584
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:28:45 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	Logon ID:	0xBC8B30
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.11
+	Source Port:	49128
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:29:18 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0x1BFA53
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.12
+	Source Port:	43942
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:30:15 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0xBBBAE
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.20
+	Source Port:	55427
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:32:32 AM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	New Process ID:	0x9F39
+	New Process Name:	C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	EXCEL.EXE /dde
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:35:26 AM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	carol
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	36829
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:38:31 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0xB5BAB1
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.50
+	Source Port:	41988
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:41:50 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	Logon ID:	0x4EAB21
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.20
+	Source Port:	57801
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:43:42 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	Logon ID:	0x643CB5
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.15
+	Source Port:	52843
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:48:46 AM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	alice
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	56279
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 8:01:29 AM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	alice
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.15
+	Source Port:	36374
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 8:06:23 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0xDC7F0
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.15
+	Source Port:	52138
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 8:08:41 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0xF666C6
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.45
+	Source Port:	51394
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 8:11:39 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0x127E2C
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.30
+	Source Port:	43351
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 8:14:12 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	Logon ID:	0xEE5744
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.30
+	Source Port:	31404
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 8:14:22 AM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	administrator
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.50
+	Source Port:	45116
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 8:15:16 AM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	New Process ID:	0xA111
+	New Process Name:	C:\Windows\System32\taskhostw.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	taskhostw.exe
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 8:27:00 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_web
+	Account Name:	svc_web
+	Account Domain:	CORP
+	Logon ID:	0xD02819
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.15
+	Source Port:	53211
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 8:27:12 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0xB2FF51
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.30
+	Source Port:	51893
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 8:29:00 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_web
+	Account Name:	svc_web
+	Account Domain:	CORP
+	Logon ID:	0x15F909
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	45098
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 8:33:57 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	Logon ID:	0x4303F9
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.20
+	Source Port:	32188
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 8:35:59 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0xE6E234
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.21
+	Source Port:	50307
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 8:37:49 AM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	New Process ID:	0x6155
+	New Process Name:	C:\Windows\System32\cmd.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	cmd.exe /c dir Z:\reports
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 8:48:59 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0x1AC66D
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.11
+	Source Port:	39336
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 8:49:42 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0x75FFBF
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.31
+	Source Port:	38073
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 9:09:12 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0x505078
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	52258
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 9:10:56 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	Logon ID:	0xB9FE9F
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.31
+	Source Port:	51160
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 9:27:00 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_report
+	Account Name:	svc_report
+	Account Domain:	CORP
+	Logon ID:	0x7DDC4A
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.21
+	Source Port:	55913
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 9:28:00 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_web
+	Account Name:	svc_web
+	Account Domain:	CORP
+	Logon ID:	0xD20275
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	39031
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 9:32:45 AM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	bob
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.11
+	Source Port:	53507
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 9:47:25 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0x9275BA
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.12
+	Source Port:	55900
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 9:52:28 AM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	alice
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	42876
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 9:58:00 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_web
+	Account Name:	svc_web
+	Account Domain:	CORP
+	Logon ID:	0xD75CE2
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.45
+	Source Port:	39018
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 10:00:08 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0xCD367A
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.30
+	Source Port:	54167
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 10:05:11 AM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	New Process ID:	0xA14
+	New Process Name:	C:\Windows\System32\taskhostw.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	taskhostw.exe
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 10:08:39 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0xF83037
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	50272
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 10:13:13 AM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	New Process ID:	0x6109
+	New Process Name:	C:\Windows\System32\taskhostw.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	taskhostw.exe
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 10:23:24 AM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	New Process ID:	0xDFBE
+	New Process Name:	C:\Windows\System32\cmd.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	cmd.exe /c dir Z:\reports
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 10:24:54 AM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	New Process ID:	0x4E26
+	New Process Name:	C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	EXCEL.EXE /dde
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 10:37:51 AM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	New Process ID:	0x5259
+	New Process Name:	C:\Windows\System32\taskhostw.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	taskhostw.exe
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 10:38:35 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0xA28718
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.31
+	Source Port:	55874
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 10:47:07 AM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	New Process ID:	0x50AC
+	New Process Name:	C:\Program Files\Git\bin\git.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	git.exe pull
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 10:51:12 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0xFA892D
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.30
+	Source Port:	48199
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 10:56:04 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0xA36AEC
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.20
+	Source Port:	47217
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 11:05:13 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0x982E52
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.21
+	Source Port:	33884
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 11:14:00 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_report
+	Account Name:	svc_report
+	Account Domain:	CORP
+	Logon ID:	0x320FFD
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.21
+	Source Port:	50954
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 11:21:17 AM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	carol
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.10
+	Source Port:	37256
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 11:26:11 AM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	New Process ID:	0x312E
+	New Process Name:	C:\Program Files\Git\bin\git.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	git.exe pull
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 11:30:47 AM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	New Process ID:	0xF593
+	New Process Name:	C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	EXCEL.EXE /dde
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 11:41:15 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0x10BA53
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.50
+	Source Port:	46560
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 11:42:00 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_report
+	Account Name:	svc_report
+	Account Domain:	CORP
+	Logon ID:	0xFF195E
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	34572
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 11:42:45 AM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	New Process ID:	0x6AE3
+	New Process Name:	C:\Program Files\Git\bin\git.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	git.exe pull
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 11:46:00 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0xE75452
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.15
+	Source Port:	35574
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 11:46:36 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0x556648
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.30
+	Source Port:	44161
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 11:47:00 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_report
+	Account Name:	svc_report
+	Account Domain:	CORP
+	Logon ID:	0x54117A
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.31
+	Source Port:	39069
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 11:54:00 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_report
+	Account Name:	svc_report
+	Account Domain:	CORP
+	Logon ID:	0x5B0C38
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.45
+	Source Port:	47529
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 11:57:48 AM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	administrator
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.50
+	Source Port:	44076
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 11:59:00 AM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_web
+	Account Name:	svc_web
+	Account Domain:	CORP
+	Logon ID:	0xD1CC23
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.45
+	Source Port:	49470
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 12:00:27 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	administrator
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.10
+	Source Port:	32241
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 12:08:20 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0x675183
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	43217
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 12:09:00 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_web
+	Account Name:	svc_web
+	Account Domain:	CORP
+	Logon ID:	0x57ADF7
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.12
+	Source Port:	32811
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 12:13:01 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	alice
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.20
+	Source Port:	42466
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 12:14:22 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	alice
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.30
+	Source Port:	37004
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 12:15:00 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_report
+	Account Name:	svc_report
+	Account Domain:	CORP
+	Logon ID:	0x98269
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	58142
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 12:15:26 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	New Process ID:	0x8A3B
+	New Process Name:	C:\Program Files\Git\bin\git.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	git.exe pull
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 12:25:18 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	New Process ID:	0x4E93
+	New Process Name:	C:\Program Files\Git\bin\git.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	git.exe pull
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 12:26:56 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	Logon ID:	0xE98CD7
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.21
+	Source Port:	41956
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 12:27:59 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0xEFD6A1
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.21
+	Source Port:	50014
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 12:28:06 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	New Process ID:	0xEAD1
+	New Process Name:	C:\Windows\System32\taskhostw.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	taskhostw.exe
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 12:35:00 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_web
+	Account Name:	svc_web
+	Account Domain:	CORP
+	Logon ID:	0xC33962
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	54454
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 12:53:33 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0x347757
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.11
+	Source Port:	54954
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 12:57:56 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	New Process ID:	0x28BA
+	New Process Name:	C:\Windows\System32\cmd.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	cmd.exe /c dir Z:\reports
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 1:18:58 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	administrator
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.45
+	Source Port:	49692
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 1:20:30 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	Logon ID:	0x5C1ED3
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	40080
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 1:21:01 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0xF84360
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.30
+	Source Port:	48916
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 1:22:58 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	New Process ID:	0xF52A
+	New Process Name:	C:\Program Files\Git\bin\git.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	git.exe pull
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 1:24:00 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	New Process ID:	0x399F
+	New Process Name:	C:\Windows\System32\cmd.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	cmd.exe /c dir Z:\reports
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 1:32:37 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	bob
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.45
+	Source Port:	45861
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 1:33:00 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_web
+	Account Name:	svc_web
+	Account Domain:	CORP
+	Logon ID:	0x24E1BA
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.21
+	Source Port:	50436
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 1:36:14 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	Logon ID:	0xBDB78C
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.20
+	Source Port:	35097
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 1:39:08 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	Logon ID:	0xCC638D
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.10
+	Source Port:	48644
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 1:44:03 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0x3252B9
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.10
+	Source Port:	44821
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 1:44:48 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	carol
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.11
+	Source Port:	51094
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 1:50:16 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0xF522DF
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.12
+	Source Port:	35610
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 1:50:35 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0xCBB452
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.20
+	Source Port:	57913
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 1:52:16 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0x649D0
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.15
+	Source Port:	56377
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 1:57:21 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	New Process ID:	0x9483
+	New Process Name:	C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	EXCEL.EXE /dde
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 1:59:10 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0x9194E6
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.11
+	Source Port:	40298
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 2:03:40 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	Logon ID:	0xB0C751
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.31
+	Source Port:	59985
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 2:13:00 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_report
+	Account Name:	svc_report
+	Account Domain:	CORP
+	Logon ID:	0xAAC04C
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.12
+	Source Port:	37963
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 2:13:35 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0x330F0
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.21
+	Source Port:	56063
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 2:28:53 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	New Process ID:	0xEDF8
+	New Process Name:	C:\Program Files\Git\bin\git.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	git.exe pull
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 2:36:00 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_web
+	Account Name:	svc_web
+	Account Domain:	CORP
+	Logon ID:	0x7DE1A7
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.31
+	Source Port:	47274
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 2:40:02 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	New Process ID:	0xB299
+	New Process Name:	C:\Windows\System32\taskhostw.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	taskhostw.exe
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 2:45:31 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0xCE941
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.20
+	Source Port:	54456
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 2:49:00 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_report
+	Account Name:	svc_report
+	Account Domain:	CORP
+	Logon ID:	0xB78C2F
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.12
+	Source Port:	36962
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 2:54:50 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	New Process ID:	0xF166
+	New Process Name:	C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	EXCEL.EXE /dde
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 2:55:12 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	New Process ID:	0xA2F4
+	New Process Name:	C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	EXCEL.EXE /dde
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 2:57:51 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	New Process ID:	0xA42C
+	New Process Name:	C:\Program Files\Git\bin\git.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	git.exe pull
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:04:26 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0x8C39D6
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.15
+	Source Port:	32205
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:05:04 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	alice
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.10
+	Source Port:	50092
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:08:25 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	New Process ID:	0x7BD
+	New Process Name:	C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	EXCEL.EXE /dde
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:09:00 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_web
+	Account Name:	svc_web
+	Account Domain:	CORP
+	Logon ID:	0x3C9921
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.31
+	Source Port:	42629
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:13:16 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	New Process ID:	0xC342
+	New Process Name:	C:\Program Files\Git\bin\git.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	git.exe pull
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:15:14 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0x6E10D8
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.45
+	Source Port:	39420
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:17:05 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	New Process ID:	0x781E
+	New Process Name:	C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	EXCEL.EXE /dde
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:20:15 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0x708063
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.45
+	Source Port:	47708
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:26:29 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0x87485F
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.15
+	Source Port:	36061
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:31:18 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0xC60471
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.21
+	Source Port:	31437
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:33:32 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0x85B568
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	45977
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:39:13 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0xCCD111
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.50
+	Source Port:	40185
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:40:03 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	administrator
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.11
+	Source Port:	41548
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:42:03 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0xA801CF
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.50
+	Source Port:	58305
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:44:45 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	bob
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.31
+	Source Port:	42840
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:45:09 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	Logon ID:	0xBB5D75
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.20
+	Source Port:	35429
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:47:08 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	carol
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.21
+	Source Port:	38639
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:47:55 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	carol
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.10
+	Source Port:	34460
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 3:53:00 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_web
+	Account Name:	svc_web
+	Account Domain:	CORP
+	Logon ID:	0xB1AC56
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.45
+	Source Port:	30094
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 4:02:51 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0xE0A946
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.21
+	Source Port:	31757
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 4:03:11 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	New Process ID:	0x70A8
+	New Process Name:	C:\Program Files\Git\bin\git.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	git.exe pull
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 4:15:05 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0xD20833
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.21
+	Source Port:	50814
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 4:15:26 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0xBFC5C2
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.11
+	Source Port:	56156
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 4:17:49 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0x9AC68D
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.11
+	Source Port:	44980
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 4:20:42 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	administrator
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.31
+	Source Port:	50459
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 4:24:05 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	bob
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.31
+	Source Port:	40936
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 4:24:23 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0x3A92FC
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.15
+	Source Port:	48009
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 4:28:01 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0x7EA202
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.31
+	Source Port:	53056
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 4:32:00 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_report
+	Account Name:	svc_report
+	Account Domain:	CORP
+	Logon ID:	0x94C6E3
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.15
+	Source Port:	42412
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 4:47:52 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	New Process ID:	0x9FF9
+	New Process Name:	C:\Windows\System32\cmd.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	cmd.exe /c dir Z:\reports
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 4:48:32 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0x6D5385
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.15
+	Source Port:	41443
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 4:49:00 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_report
+	Account Name:	svc_report
+	Account Domain:	CORP
+	Logon ID:	0xF178BC
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.21
+	Source Port:	46524
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 4:51:37 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	New Process ID:	0xC7E2
+	New Process Name:	C:\Program Files\Git\bin\git.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	git.exe pull
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 4:53:56 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0x922BAD
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.31
+	Source Port:	49195
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 4:56:31 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	New Process ID:	0x9996
+	New Process Name:	C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	EXCEL.EXE /dde
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 5:02:26 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	administrator
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.30
+	Source Port:	52179
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 5:04:54 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0xF2A57B
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.10
+	Source Port:	31930
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 5:07:18 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	New Process ID:	0x8BCE
+	New Process Name:	C:\Windows\System32\taskhostw.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	taskhostw.exe
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 5:19:47 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0x8DF607
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.50
+	Source Port:	34913
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 5:21:17 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	alice
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.15
+	Source Port:	35233
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 5:25:19 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	Logon ID:	0x46352
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.12
+	Source Port:	50807
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 5:41:55 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	New Process ID:	0x6FFE
+	New Process Name:	C:\Program Files\Git\bin\git.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	git.exe pull
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 5:44:46 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	New Process ID:	0xE451
+	New Process Name:	C:\Windows\System32\cmd.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	cmd.exe /c dir Z:\reports
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 5:48:10 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	bob
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.15
+	Source Port:	48114
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 5:49:55 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0xE43371
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.15
+	Source Port:	37000
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 5:56:00 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_web
+	Account Name:	svc_web
+	Account Domain:	CORP
+	Logon ID:	0xE885B6
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.15
+	Source Port:	42738
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 5:56:59 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	New Process ID:	0x6703
+	New Process Name:	C:\Windows\System32\taskhostw.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	taskhostw.exe
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 6:04:21 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0x591D35
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.12
+	Source Port:	59108
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 6:04:45 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0x9E250D
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.21
+	Source Port:	47474
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 6:10:01 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0xA508C8
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	38430
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 6:17:40 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0xE531C
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.31
+	Source Port:	50772
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 6:17:55 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0x9B3C8F
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.20
+	Source Port:	53493
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 6:24:44 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0xC67B74
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.12
+	Source Port:	51713
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 6:26:49 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	Logon ID:	0x9A795F
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	38678
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 6:28:35 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0xA779CF
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.50
+	Source Port:	53883
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 6:38:14 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	New Process ID:	0xC363
+	New Process Name:	C:\Windows\System32\taskhostw.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	taskhostw.exe
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 6:42:00 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_report
+	Account Name:	svc_report
+	Account Domain:	CORP
+	Logon ID:	0x71BE74
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.31
+	Source Port:	33725
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 6:49:34 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	New Process ID:	0xF737
+	New Process Name:	C:\Windows\System32\taskhostw.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	taskhostw.exe
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 6:50:15 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0x877183
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.15
+	Source Port:	47259
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 6:57:12 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	Logon ID:	0x8AD5F5
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	54647
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:01:18 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\alice
+	Account Name:	alice
+	Account Domain:	CORP
+	Logon ID:	0x6613C3
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.10
+	Source Port:	59495
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:02:13 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0xEED817
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.10
+	Source Port:	41554
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:04:27 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0x50E84F
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.30
+	Source Port:	56869
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:08:36 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	Logon ID:	0xBC1552
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.30
+	Source Port:	48296
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:09:22 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	bob
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	36275
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:13:54 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0x3262C7
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.50
+	Source Port:	36456
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:19:38 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	New Process ID:	0xB7C8
+	New Process Name:	C:\Windows\System32\cmd.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	cmd.exe /c dir Z:\reports
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:20:36 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0x1413B5
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.20
+	Source Port:	36287
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:28:22 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0xCDD25A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.15
+	Source Port:	36585
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:33:33 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	administrator
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.31
+	Source Port:	53311
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:35:00 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\svc_report
+	Account Name:	svc_report
+	Account Domain:	CORP
+	Logon ID:	0x4D21B0
+	Logon Type:	5
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.11
+	Source Port:	31712
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:35:12 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	New Process ID:	0x5BD3
+	New Process Name:	C:\Windows\System32\taskhostw.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	taskhostw.exe
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:39:00 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0xE1921B
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.15
+	Source Port:	59711
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:39:48 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	administrator
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.30
+	Source Port:	38286
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:42:44 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0xB5710C
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	34275
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:47:49 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	Logon ID:	0xD51F25
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.50
+	Source Port:	41572
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:48:37 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0x9C84EB
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.10
+	Source Port:	35924
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:49:23 PM
+Event ID:      4688
+Task Category: Process Creation
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+A new process has been created.
+
+	Security ID:	CORP\bob
+	Account Name:	bob
+	Account Domain:	CORP
+	New Process ID:	0xEF32
+	New Process Name:	C:\Program Files\Git\bin\git.exe
+	Token Elevation Type:	%%1936
+	Creator Process Name:	C:\Windows\System32\cmd.exe
+	Process Command Line:	git.exe pull
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:49:46 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\carol
+	Account Name:	carol
+	Account Domain:	CORP
+	Logon ID:	0xC6737B
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.50
+	Source Port:	57013
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:52:01 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	administrator
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.50
+	Source Port:	57612
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:52:32 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	carol
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.20
+	Source Port:	41380
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:53:34 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0xD561F5
+	Logon Type:	2
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.21
+	Source Port:	38291
+	Logon Process:	User32
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:55:33 PM
+Event ID:      4625
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Failure
+Computer:      DC01.corp.local
+Description:
+An account failed to log on.
+
+	Security ID:	NULL SID
+	Account Name:	-
+	Account For Which Logon Failed:	
+	Account Name:	carol
+	Account Domain:	CORP
+	Failure Reason:	Unknown user name or bad password.
+	Status:	0xC000006D
+	Sub Status:	0xC000006A
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.22
+	Source Port:	51533
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+
+Log Name:      Security
+Source:        Microsoft-Windows-Security-Auditing
+Date:          9/18/2026 7:58:42 PM
+Event ID:      4624
+Task Category: Logon
+Level:         Information
+Keywords:      Audit Success
+Computer:      DC01.corp.local
+Description:
+An account was successfully logged on.
+
+	Security ID:	CORP\administrator
+	Account Name:	administrator
+	Account Domain:	CORP
+	Logon ID:	0x5531AE
+	Logon Type:	3
+	Workstation Name:	WS-CORP
+	Source Network Address:	192.168.1.21
+	Source Port:	42573
+	Logon Process:	NtLmSsp
+	Authentication Package:	NTLM
+

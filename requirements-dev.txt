@@ -1,0 +1,4 @@
+-r requirements.txt
+
+pytest>=8.0            # test suite (9.1.1)
+selenium>=4.20         # tools/capture_screenshots.py only (4.38.0)

@@ -1,0 +1,4 @@
+# Runtime dependencies. Verified on Python 3.14 with the versions noted.
+streamlit>=1.40        # dashboard (1.64.0)
+pandas>=2.2            # the event frame every stage passes around (2.3.3)
+plotly>=5.20           # charts (7.1.0)

